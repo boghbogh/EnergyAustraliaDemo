@@ -11,6 +11,8 @@
 
 # MAGIC %sql
 # MAGIC select * from iou
+# MAGIC union
+# MAGIC select * from nou
 
 # COMMAND ----------
 
