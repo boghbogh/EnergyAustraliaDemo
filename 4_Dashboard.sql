@@ -10,7 +10,7 @@
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC <h3> Data for two states are skwing our analysis. Let's exclude those slide.  </h3>
+-- MAGIC <h3> Data for two states are skwing our analysis. Let's exclude those slide.  </h3> 
 
 -- COMMAND ----------
 
