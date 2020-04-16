@@ -1,4 +1,12 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC SELECT state, AVG(comm_rate) as comm_rate, AVG(ind_rate) as ind_rate, AVG(res_rate) as res_rate  
+# MAGIC                           FROM AllData_View 
+# MAGIC                           GROUP BY state 
+# MAGIC                           ORDER BY state
+
+# COMMAND ----------
+
 library(SparkR)
 library(plotly)
 library(ggplot2)
